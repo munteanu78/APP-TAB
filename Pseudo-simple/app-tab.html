@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>APP TAB example | Pseudo</title>
+    <style>
+        .tabs{
+           /* border: 1px dotted black ;*/
+            padding: 10px;
+            list-style: none;
+            margin: 20px;
+        }
+        .tabs-item{
+            border: 1px solid #e6e6e6;
+            border-radius: 5px;
+            display: inline-block;
+            padding: 20px 10px;
+            margin: 5px;
+            text-align: center;
+            transition: 0.35s;
+            height: 90px;
+        }
+        .tabs-item:hover{
+            background-color: #cccccc;
+        }
+        .tabs-img{
+            margin-bottom: 20px;
+        }
+        .tabs-link{
+            text-decoration: none;
+            color: #333;
+        }
+        .tabs-options{
+            font-size: 30px;
+            line-height: 5px;
+            background-color: #999999;
+            height: 30px;
+            width: 30px;
+            border-radius: 30px;
+            opacity: 0.0;
+            transform: translatey(-110px) translateX(79px);
+        }
+        .tabs-options:hover{
+           opacity: 1.0;
+        }
+    </style>
+</head>
+<body>
+    <ul class="tabs">
+        <li class="tabs-item" title="acces this account">
+            <a class="tabs-link" href="#"><img class="tabs-img" src="https://icons.iconarchive.com/icons/bokehlicia/captiva/48/web-github-icon.png" alt="">
+                <br>
+                 Username_here </a>
+                <div class="tabs-options"> . <br> . <br> .</div>
+        </li>
+
+        <li class="tabs-item" title="acces this account">
+            <a class="tabs-link" href="#"><img class="tabs-img" src="https://icons.iconarchive.com/icons/chrisbanks2/cold-fusion-hd/48/viber-icon.png" alt="">
+                <br>
+                Username_here</a>
+                <div class="tabs-options"> . <br> . <br> .</div>
+        </li>
+
+        <li class="tabs-item" title="acces this account">
+            <a class="tabs-link" href="#"><img class="tabs-img" src="https://icons.iconarchive.com/icons/designbolts/free-instagram/48/Active-Instagram-4-icon.png" alt="">
+                <br>
+                Username_here</a>
+                <div class="tabs-options"> . <br> . <br> .</div>
+        </li>
+    </ul>
+</body>
+</html>
